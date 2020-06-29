@@ -1,0 +1,110 @@
+body {
+  background-color: #fffcf0;
+  font-family: 'Poppins', sans-serif;
+}
+.lp-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.lp-title {
+  font-size: 40px;
+  margin-top: 50px;
+}
+
+.lp-subtitle {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.lp-box-image{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.lp-image {
+  width: 400px;
+  margin-bottom: 20px
+}
+
+.lp-box-desc {
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+  color: #5e5e5e
+}
+
+.lp-desc {
+  width: 400px
+}
+
+.lp-box-btn{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px
+}
+
+.lp-btn {
+  width: 300px;
+  background-image: linear-gradient(to right, #6eefd5 , #34bca1);
+  padding: 10px 0;
+  border-radius: 3px;
+  cursor: pointer;
+  color: white;
+  font-weight: 600;
+}
+
+.lp-btn:hover {
+  background-image: linear-gradient(to left, #6eefd5 , #6eefd5);
+  color: #f4f4f4
+}
+
+@media only screen and (max-width: 450px) {
+  .lp-image {
+    width: 350px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+  .lp-desc {
+    width: 350px
+  }
+  .lp-btn {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .lp-image {
+    width: 320px;
+  }
+  .lp-title {
+    font-size: 34px;
+  }
+  .lp-desc {
+    width: 310px
+  }
+  .lp-btn {
+    width: 280px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .lp-image {
+      width: 270px;
+    }
+    .lp-title {
+      font-size: 30px;
+    }
+    .lp-subtitle {
+      font-size: 20px;
+    }
+    .lp-desc {
+      width: 285px
+    }
+    .lp-btn {
+      width: 250px;
+    }
+}
